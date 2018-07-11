@@ -1,0 +1,4 @@
+DATA_{"errorString":"Error in generating stageOne Id","stageOneId_":null,"stageTwoId_":null,"showHtmlReportForCreditReport":null,"newUserId":0,"subscriptionMsg":null}
+
+
+DATA_{"clientName":"CAPITAL_FIRST_STP_PROD","allowInput":"0","allowEdit":"0","allowCaptcha":"0","allowConsent":"1","allowConsent_additional":"1","allowEmailVerify":"0","allowVoucher":"0","noValidationByPass":"1","emailConditionalByPass":"0","voucherCode":"","reason":"Test","firstName":"Anoop","middleName":"","surName":"Raghavan","dateOfBirth":"01-May-1986","gender":"Male","mobileNo":"9739011594","email":"anup.krishnapriya@gmail.com","city":"KOZHIKODE","state":"32","pincode":"673009","flatno":"Krishnapriya","pan":"AKMPA5288J","passport":"","Aadhaar":"","voterid":"","driverlicense":"","rationcard":"","telephoneNo":"","telephoneType":"","buildingName":"","roadName":""}
