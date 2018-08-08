@@ -1,0 +1,28 @@
+tream app1{
+        server 10.40.0.83;
+        server 10.40.0.84;
+}
+upstream app2{
+#       server 10.40.0.83;
+        server 10.40.0.84;
+}
+server {
+        listen  7358;
+	 server_name 113.193.177.221;
+	  location / {
+			rewrite ^(.*) https://cflapps.capitalfirst.com:7358$1 permanent;
+	}
+        location /cfladmin {
+                #set_cookie_flag Secret HttpOnly secure SameSite;
+                #proxy_pass http://app2;
+                deny all;
+        }
+}
+
+server {
+        listen 7359;
+        server_name 10.40.0.68;
+        location / {
+                proxy_pass http://app1;
+        }
+}
