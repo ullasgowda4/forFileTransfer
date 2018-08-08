@@ -1,3 +1,9 @@
+2018/08/08 05:38:25 [alert] 8090#8090: 2048 worker_connections are not enough
+2018/08/08 05:38:25 [alert] 8090#8090: 2048 worker_connections are not enough
+2018/08/08 05:38:25 [alert] 8090#8090: 2048 worker_connections are not enough
+2018/08/08 05:38:25 [alert] 8090#8090: 2048 worker_connections are not enough
+2018/08/08 05:38:25 [alert] 8090#8090: 2048 worker_connections are not enough
+2018/08/08 05:38:25 [alert] 8091#8091: *27857 2048 worker_connections are not enough while connecting to upstream, client: 157.38.229.127, server: 113.193.117.221, request: "GET /cflcustomerapi/v1/cflpincsv?platform=2&ver=1.0 HTTP/1.1", upstream: "http://10.40.0.84:80/cflcustomerapi/v1/cflpincsv?platform=2&ver=1.0", host: "cflapps.capitalfirst.com:7358"
 2018/08/08 05:48:10 [error] 8090#8090: *271370 connect() failed (110: Connection timed out) while connecting to upstream, client: 103.60.208.205, server: 113.193.117.221, request: "GET /cflcustomerapi/v1/cflpincsv?platform=2&ver=1.0 HTTP/1.1", upstream: "http://10.40.0.84:80/cflcustomerapi/v1/cflpincsv?platform=2&ver=1.0", host: "cflapps.capitalfirst.com:7358"
 2018/08/08 05:48:10 [error] 8092#8092: *271080 connect() failed (110: Connection timed out) while connecting to upstream, client: 49.34.156.31, server: 113.193.117.221, request: "GET /cflcustomerapi/v1/cflpincsv?platform=2&ver=1.0 HTTP/1.1", upstream: "http://10.40.0.84:80/cflcustomerapi/v1/cflpincsv?platform=2&ver=1.0", host: "cflapps.capitalfirst.com:7358"
 2018/08/08 05:48:10 [error] 8092#8092: *271345 connect() failed (110: Connection timed out) while connecting to upstream, client: 49.35.197.153, server: 113.193.117.221, request: "GET /cflmasterlistapi/v1/masterapi?version=241 HTTP/1.1", upstream: "http://10.40.0.84:80/cflmasterlistapi/v1/masterapi?version=241", host: "cflapps.capitalfirst.com:7358"
