@@ -53,7 +53,7 @@ CREATE TABLE `banner` (
 
 LOCK TABLES `banner` WRITE;
 /*!40000 ALTER TABLE `banner` DISABLE KEYS */;
-INSERT INTO `banner` VALUES (1,'test1','','1','homescreen','2018-10-09','2019-10-10','1','TS','TW',1,1,'not yet','2018-10-10 12:52:48','2018-10-10 12:52:48',1,1),(2,'test2','http://www.tompetty.com/sites/g/files/g2000007521/f/Sample-image10-highres.jpg','2','dont know','2018-10-11','2019-10-10','2','www.google.com','CD',1,1,'11 not yet','2018-10-10 12:54:24','2018-10-10 12:54:24',1,1),(3,'test3','upload/banners/','2','dont know','2018-10-10','2018-10-10','2','www.google.com','TW',1,1,'11 not yet','2018-10-10 14:16:08','2018-10-10 14:16:08',1,1);
+INSERT INTO `banner` VALUES (1,'test1','','1','homescreen','2018-10-09','2019-10-10','1','TW','TW',1,1,'not yet','2018-10-10 12:52:48','2018-10-10 12:52:48',1,1),(2,'test2','http://www.tompetty.com/sites/g/files/g2000007521/f/Sample-image10-highres.jpg','2','dont know','2018-10-11','2019-10-10','2','www.google.com','CD',1,1,'11 not yet','2018-10-10 12:54:24','2018-10-10 12:54:24',1,1),(3,'test3','upload/banners/','2','dont know','2018-10-10','2018-10-10','2','www.google.com','TW',1,1,'11 not yet','2018-10-10 14:16:08','2018-10-10 14:16:08',1,1);
 /*!40000 ALTER TABLE `banner` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
