@@ -1,0 +1,1 @@
+update `admin_user` set dashboard_key='{"data":[{"key":"Total Present","unit":"days","code":"totalPresent"},{"key":"Total Absent","unit":"days","code":"totalAbsent"},{"key":"Stores Visited","unit":"nos","code":"storeVisit"},{"key":"Branches Visited","unit":"nos","code":"branchVisit"}]}';
