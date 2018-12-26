@@ -1,0 +1,216 @@
+doc_type	created_at	attempts	status	error
+Others	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017673","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+DELIVERY PROOF	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-24	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+Invoice Photo	2018-12-24	40	0	{"ProcessedId":"1017682","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+Purchased Good	2018-12-24	48	0	{"ProcessedId":"1017683","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+DELIVERY PROOF	2018-12-23	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017685","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+Invoice Photo	2018-12-24	40	0	{"ProcessedId":"1017686","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+CKYC PHOTO	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+Others	2018-12-24	1	1	NULL
+Purchased Good	2018-12-24	48	0	{"ProcessedId":"1017687","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-24	1	1	NULL
+Invoice Photo	2018-12-24	48	0	{"ProcessedId":"1017688","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+Purchased Good	2018-12-24	47	0	{"ProcessedId":"1017690","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-26	0	0	NULL
+Invoice Photo	2018-12-24	46	0	{"ProcessedId":"1017691","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+Invoice Photo	2018-12-24	40	0	{"ProcessedId":"1017693","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+Invoice Photo	2018-12-24	40	0	{"ProcessedId":"1017695","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+CKYC PHOTO	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+CKYC PHOTO	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+DELIVERY PROOF	2018-12-24	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+CKYC PHOTO	2018-12-23	1	1	NULL
+CKYC PHOTO	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+Invoice Photo	2018-12-24	40	0	{"ProcessedId":"1017697","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+Invoice Photo	2018-12-24	48	0	{"ProcessedId":"1017698","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+DELIVERY PROOF	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017699","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-23	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017701","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+DELIVERY PROOF	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017702","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-26	1	1	NULL
+Invoice Photo	2018-12-24	48	0	{"ProcessedId":"1017704","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-23	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017707","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-26	0	0	NULL
+DELIVERY PROOF	2018-12-26	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+Invoice Photo	2018-12-24	48	0	{"ProcessedId":"1017710","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017713","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017715","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-23	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+Purchased Good	2018-12-24	47	0	{"ProcessedId":"1017716","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+Invoice Photo	2018-12-24	40	0	{"ProcessedId":"1017720","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+DELIVERY PROOF	2018-12-25	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+CKYC PHOTO	2018-12-24	1	1	NULL
+Others	2018-12-24	1	1	NULL
+Purchased Good	2018-12-25	23	0	{"ProcessedId":"1017722","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+INVOICE	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+CKYC PHOTO	2018-12-23	1	1	NULL
+Invoice Photo	2018-12-23	65	0	{"ProcessedId":"1017724","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+Invoice Photo	2018-12-23	65	0	{"ProcessedId":"1017725","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+INVOICE	2018-12-24	1	1	NULL
+Invoice Photo	2018-12-23	65	0	{"ProcessedId":"1017726","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+Purchased Good	2018-12-24	47	0	{"ProcessedId":"1017727","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+DELIVERY PROOF	2018-12-23	1	1	NULL
+CKYC PHOTO	2018-12-23	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+CKYC PHOTO	2018-12-24	1	1	NULL
+PURCHASED GOODS	2018-12-24	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+DELIVERY PROOF	2018-12-23	1	1	NULL
+Invoice Photo	2018-12-24	48	0	{"ProcessedId":"1017733","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+DELIVERY PROOF	2018-12-25	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+INVOICE	2018-12-23	1	1	NULL
+Invoice Photo	2018-12-24	48	0	{"ProcessedId":"1017739","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
+PURCHASED GOODS	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+INVOICE	2018-12-25	1	1	NULL
+Others	2018-12-24	1	1	NULL
+Purchased Good	2018-12-24	48	0	{"ProcessedId":"1017743","uploadDocumentResponse":{"uploadDocumentWithAccessCheckResponse":{"@xmlns:xmlns":"http:\\/\\/UCPCF\\/DmsDoctypeAccessAPI.tws","uploadPermission":"N","isSuccess":"true","exception":null,"filenetResponse":"false"}}}
