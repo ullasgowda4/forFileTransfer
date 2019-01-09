@@ -1,0 +1,1 @@
+sudo curl -H "Content-Type: application/json" -X POST -d /home/techjini/Documents/clientssl/certifacete/Request.txt  https://ESBUAT1RTN0140.idfcbank.com/cfl/cflAccountOpeningRequest  --cert  /home/techjini/Documents/clientssl/certifacete/localkey.pem  --cacert /home/techjini/Documents/clientssl/certifacete/ESBUAT.crt -v –k
