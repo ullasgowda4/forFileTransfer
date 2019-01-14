@@ -1,2 +1,2 @@
-SELECT * FROM `file_upload_details` where property like '%{"propertyName":"isOSVEnabled","propertyValue":false}%'
+UPDATE file_upload_details SET property = REPLACE(property, '{"propertyName":"isOSVEnabled","propertyValue":false},', '')
 
