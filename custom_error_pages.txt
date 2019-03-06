@@ -2,3 +2,17 @@ echo "<h1 style='color:red'>Error 404: Not found :-(</h1>" | sudo tee /var/www/h
 echo "<p>I have no idea where that file is, sorry.  Are you sure you typed in the correct URL?</p>" | sudo tee -a /var/www/html/custom_404.html
 echo "<h1>Oops! Something went wrong...</h1>" | sudo tee /var/www/html/custom_50x.html
 echo "<p>We seem to be having some technical difficulties. Hang tight.</p>" | sudo tee -a /var/www/html/custom_50x.html
+
+
+
+    <Files "custom_404.html">
+        <If "-z %{ENV:REDIRECT_STATUS}">
+            RedirectMatch 404 ^/custom_404.html$
+        </If>
+    </Files>
+
+    <Files "custom_50x.html">
+        <If "-z %{ENV:REDIRECT_STATUS}">
+            RedirectMatch 404 ^/custom_50x.html$
+        </If>
+    </Files>
