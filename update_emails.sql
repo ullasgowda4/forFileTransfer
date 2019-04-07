@@ -1,7 +1,7 @@
-UPDATE admin_users
-SET user_name = REPLACE(user_name, '@idfcfirstbank.com', '@capitalfirst1.com');
-UPDATE admin_users
-SET user_name = REPLACE(user_name, '@IDFCFIRSTBANK.com', '@capitalfirst1.com');
+UPDATE admin_users SET user_name = REPLACE(user_name, '@idfcfirstbank.com', '@capitalfirst1.com');
+UPDATE admin_users SET user_name = REPLACE(user_name, '@IDFCFIRSTBANK.com', '@capitalfirst1.com');
+UPDATE admin_users SET email = REPLACE(user_name, '@idfcfirstbank.com', '@capitalfirst1.com');
+UPDATE admin_users SET email = REPLACE(user_name, '@IDFCFIRSTBANK.com', '@capitalfirst1.com');
 
 UPDATE admin_users SET user_name = REPLACE(user_name, '@capitalfirst.com', '@idfcfirstbank.com');
 UPDATE admin_users SET user_name = REPLACE(user_name, '@CAPITALFIRST.COM', '@idfcfirstbank.com');
