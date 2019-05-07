@@ -26,6 +26,27 @@ SET time_zone = "+00:00";
 -- Table structure for table `app_language_string`
 --
 
+CREATE TABLE `app_language_string` (
+  `id` int(11) NOT NULL,
+  `string_key` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `LANG_EN` longtext COLLATE utf8_unicode_ci,
+  `LANG_AS` longtext COLLATE utf8_unicode_ci,
+  `LANG_BN` longtext COLLATE utf8_unicode_ci,
+  `LANG_GU` longtext COLLATE utf8_unicode_ci,
+  `LANG_HI` longtext COLLATE utf8_unicode_ci,
+  `LANG_KN` longtext COLLATE utf8_unicode_ci,
+  `LANG_ML` longtext COLLATE utf8_unicode_ci,
+  `LANG_MR` longtext COLLATE utf8_unicode_ci,
+  `LANG_OR` longtext COLLATE utf8_unicode_ci,
+  `LANG_PA` longtext COLLATE utf8_unicode_ci,
+  `LANG_TA` longtext COLLATE utf8_unicode_ci,
+  `LANG_TE` longtext COLLATE utf8_unicode_ci,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  `version_key` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
 --
 -- Dumping data for table `app_language_string`
 --
