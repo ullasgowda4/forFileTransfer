@@ -1,1 +1,0 @@
-curl -H "Content-Type: application/json" -X POST -d @Request.txt https://ESBUAT1RTN0140.idfcbank.com:9444/cfl/cflAccountOpeningRequest --cert /home/techjini/Documents/clientssl/certifacete/cfl_crt.pem --key /home/techjini/Documents/clientssl/certifacete/cfl_key.pem  --cacert /home/techjini/Documents/clientssl/certifacete/esbuat3.pem -v –k

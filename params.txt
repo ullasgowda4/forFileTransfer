@@ -1,8 +1,0 @@
-sfdc_url: https://muleuat.capitalfirst.com:8443/uatapigateway/sfdc_inbound_api
-sfdc_username: cflintegration
-sfdc_password: sdfvklj40934tsdlvjk309sd
-sfdc_source: Mobile
-sfdc_env: dev3
-sfdc_fetch: fetchSoDisposition
-sfdc_update: updateSoDisposition
-content_type: application/json
