@@ -1,0 +1,88 @@
+-- MySQL dump 10.13  Distrib 5.7.27, for Linux (x86_64)
+--
+-- Host: localhost    Database: idfc_connector
+-- ------------------------------------------------------
+-- Server version	5.7.27-0ubuntu0.18.04.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `connectors`
+--
+
+DROP TABLE IF EXISTS `connectors`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `connectors` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `connector_id` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `referral_code` varchar(8) COLLATE utf8_unicode_ci NOT NULL,
+  `pan_no` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `fname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `mname` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `lname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `mobile_no` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `dob` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `email_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `gst_no` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `current_house_no` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `current_address1` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `current_address2` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `current_landmark` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `current_pincode` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `current_city` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `current_state` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `permanent_house_no` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `permanent_address1` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `permanent_address2` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `permanent_landmark` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `permanent_pincode` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  `permanent_city` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `permanent_state` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `beneficiary_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `bank_account_no` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ifsc_code` varchar(15) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` smallint(6) NOT NULL DEFAULT '1',
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `created_by` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `updated_by` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `is_bureau_approved` smallint(6) NOT NULL DEFAULT '0',
+  `is_hunter_approved` smallint(6) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UNIQ_B1100F1184D821C2` (`pan_no`),
+  UNIQUE KEY `UNIQ_B1100F1160950D04` (`mobile_no`),
+  UNIQUE KEY `UNIQ_B1100F114D085745` (`connector_id`),
+  UNIQUE KEY `UNIQ_B1100F116447454A` (`referral_code`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `connectors`
+--
+
+LOCK TABLES `connectors` WRITE;
+/*!40000 ALTER TABLE `connectors` DISABLE KEYS */;
+INSERT INTO `connectors` VALUES (1,'9221725643','HCJF5643','aaea6d44ab03b51aea95091a21c08ab9464bc5a3d151216cdd48bbb41e92642a','Hcjfi','Cjcj','Cjc','0651610081','1953-11-29','chjfj@vig.com','','hcjf','1-119 WARD 1 BAHAVATHI AMMAN KOIL STREET KODIVALAM OANIAV TIRUCHIRAPPALUI - 639115','fuuf','jfif','639115','MADURAI','TAMIL NADU','hcjf','1-119 WARD 1 BAHAVATHI AMMAN KOIL STREET KODIVALAM OANIAV TIRUCHIRAPPALUI - 639115','fuuf','jfif','639115','MADURAI','TAMIL NADU',NULL,NULL,NULL,1,'2019-11-08 19:05:22','2019-11-08 19:05:22',NULL,NULL,1,1),(4,'9221725646','PRAC5646','e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855','PRACHI','PRAKASH','SAWANT','7506865792','2019-11-12','tesd@gmaksnsj.com','','hdhndndmxnxnxnndndn','ixjgkg4237679797','jffidigpb:\':::::#','hdhxhjxnxhxhznz','421301','THANE','MAHARASHTRA','hdhndndmxnxnxnndndn','ixjgkg4237679797','jffidigpb:\':::::#','hdhxhjxnxhxhznz','421301','THANE','MAHARASHTRA',NULL,NULL,NULL,1,'2019-11-12 09:06:54','2019-11-12 09:06:54',NULL,NULL,1,1),(6,'9221725648','SAMA5648','5c2ba83087a5c90846c4eb3284ac9e0e273a567243b5a3ace7be5e392df35ab8','Samarth','','B','9113656132','1991-08-15','test@techjini.com','','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka',NULL,NULL,NULL,1,'2019-11-13 17:50:55','2019-11-13 17:50:55',NULL,NULL,0,0),(7,'9221725649','HCJF5649','4279ec8ba16da58425dc9fd30daf7178dac5d11161645731206c6c6b23ff2784','Hcjfi','Cjcj','Cjc','8320437295','1953-11-29','chjfj@vig.com','','hcjf','BAHAVATHI AMMAN KOIL STREET KODIVALAM OANIAV TIRUCHIRAPPALUI','fuuf','jfif','639115','MADURAI','TAMIL NADU','hcjf','BAHAVATHI AMMAN KOIL STREET KODIVALAM OANIAV TIRUCHIRAPPALUI','fuuf','jfif','639115','MADURAI','TAMIL NADU',NULL,NULL,NULL,1,'2019-11-13 21:45:33','2019-11-13 21:45:33',NULL,NULL,1,1),(8,'9221725650','PRAC5650','31e7f4e6acb6ea547158a586dd106406fb84d686bd191eba473a628d5ef017b0','PRACHI','PRAKASH','SAWANT','9176144882','1994-01-13','test@gnmxhi.com','','rsydy','S/O Nepal Singh, 418 gali no - 1, post office - kishan pura, police check post new multan nagar, bhola road meerut, Meerut, Navinmandi, Meerut Uttar Pradesh, 250002','','gdhdhfjl','250002','MEERUT','UTTARPRADESH','rsydy','S/O Nepal Singh, 418 gali no - 1, post office - kishan pura, police check post new multan nagar, bhola road meerut, Meerut, Navinmandi, Meerut Uttar Pradesh, 250002','','gdhdhfjl','250002','MEERUT','UTTARPRADESH','pratiksha talekar','8d0e36ee22f4b38f3272ae3eede4194aa696ce3cbfb9b45f6c1842537c68e482','HDFC0CBMC01',1,'2019-11-15 14:51:13','2019-11-15 14:51:13',NULL,NULL,1,1),(10,'9221725651','SAMA5651','876f48978931d5a29e59c0c0ac0054c0a348d61e98f037bb55bf7f84ebe0e076','Samarth','','B','9113656133','1991-08-15','test@techjini.com','','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka',NULL,NULL,NULL,1,'2019-11-15 15:49:21','2019-11-15 15:49:21',NULL,NULL,0,0),(12,'9221725652','SAMA5652','d9300955f9509b1b480e44fd2a1c2e922134723d302fd678b251faba4f9555fa','Samarth','','B','9113656134','1991-08-15','test@techjini.com','','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka',NULL,NULL,NULL,1,'2019-11-15 15:57:44','2019-11-15 15:57:44',NULL,NULL,0,0),(15,'9221725654','CHIR5654','77cb2fd8fb77a4e83f0f592a81b6f23c97ae9f1366df38a6ee44f7b09590c1ae','CHIRAG','PRADIPBHAI','SHAH','9865986590','1953-11-28','bzj@jd.jdj','','bdh','ura, DOlice check post new multan nagar, bhola road meerut, Meerut, Navinmandi, Meerut Uttar Pradesh, 250002','hdh','bdn','250002','MEERUT','UTTARPRADESH','bdh','ice check post new multan nagar, bhola road meerut, Meerut, Navinmandi, Meerut Uttar Pradesh, 250002','hdh','bdn','250002','MEERUT','UTTARPRADESH',NULL,NULL,NULL,1,'2019-11-16 12:51:11','2019-11-16 12:51:11',NULL,NULL,1,1),(18,'9221725656','SAMA5656','8ea645c48d25405fc67cffcd9df338df4aa05a93fcecd9ea0cfa531c879110ca','Samarth','','B','8888888888','1990-10-10','test@techjini.com','','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka','1','Bangalore','Bangalore','ABC','560072','Bangalore','Karnataka',NULL,NULL,NULL,1,'2019-11-18 13:01:24','2019-11-18 13:01:24',NULL,NULL,0,0),(19,'9221725657','PRAT5657','948cfe002a1561cf3923db107f792454afa300368243205de9539bfeb940c429','PRATIKSHA','KRISHNA','TALEKAR','7506865492','1991-11-19','test@gmail.bom','','ydufj','D/O Krishna, 5 9vade coloy bK  road, Kalyan, Thane, Maharashtra - 421301','','test','421301','THANE','MAHARASHTRA','tesgg','D/O Krishna, 5 9vade coloy bK  road, Kalyan, Thane, Maharashtra - 421301','','teft','421301','THANE','MAHARASHTRA',NULL,NULL,NULL,1,'2019-11-19 11:39:34','2019-11-19 11:39:34',NULL,NULL,1,1);
+/*!40000 ALTER TABLE `connectors` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2019-11-19 16:07:07
